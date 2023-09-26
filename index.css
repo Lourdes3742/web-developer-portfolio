@@ -1,0 +1,46 @@
+/*CSS Reset Rule*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*Google Font for Body*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.jumbotron {
+	background-image: url('images/background.png'); /* Replace 'your-background-image.jpg' with the path to your image */
+	background-size: cover;
+	color: white; /* Text color on top of the image */
+}
+
+
+#name {
+	font-family: 'fantasy', monospace;
+	font-weight: bold;
+	color: yellow;
+	font-style: italic;
+}
+
+#nav-name, #nav-name-1 {
+	font-family: 'fantasy', monospace;
+	font-weight: bold;
+	color: yellow;
+}
+
+#rasmus {
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+#my-projects, #my-tools, #my-contact {
+	font-family: 'fantasy', monospace;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
